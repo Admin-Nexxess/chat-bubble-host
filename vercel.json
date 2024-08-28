@@ -1,15 +1,15 @@
 {
   "headers": [
     {
-      "source": "/(.*)", 
+      "source": "/(.*)",
       "headers": [
         {
           "key": "X-Frame-Options",
-          "value": "ALLOW-FROM https://your-retool-domain.com"
+          "value": "ALLOW-FROM https://phoenixbusinesstrust1.retool.com"
         },
         {
           "key": "Content-Security-Policy",
-          "value": "frame-ancestors 'self' https://phoenixbusinesstrust1.retool.com/"
+          "value": "frame-ancestors 'self' https://phoenixbusinesstrust1.retool.com"
         }
       ]
     }
