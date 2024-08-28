@@ -9,7 +9,7 @@
         },
         {
           "key": "Content-Security-Policy",
-          "value": "frame-ancestors 'self' https://phoenixbusinesstrust1.retool.com"
+          "value": "frame-ancestors 'self' https://phoenixbusinesstrust1.retool.com; child-src https://bot.insertchat.com https://phoenixbusinesstrust1.retool.com; script-src 'self' https://bot.insertchat.com; connect-src 'self' https://bot.insertchat.com"
         }
       ]
     }
